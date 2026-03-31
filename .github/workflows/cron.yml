@@ -2,7 +2,7 @@ name: Ticket Checker
 
 on:
   schedule:
-    - cron: "*/1 * * * *"   # every 15 minutes (UTC)
+    - cron: "*/2 * * * *"   # every 15 minutes (UTC)
   workflow_dispatch:
 
 jobs:
