@@ -1,0 +1,9 @@
+{
+  "name": "BMS Tracker",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "remoteEnv": {
+    "BOT_TOKEN": "${localEnv:BOT_TOKEN}",
+    "CHAT_ID": "${localEnv:CHAT_ID}"
+  },
+  "forwardPorts": []
+}
